@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "fast-api-notes"
+version = "0.1.0"
+description = ""
+authors = ["safyro <vektorn1212@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.112.2"
+alembic = "^1.13.2"
+asyncpg = "^0.29.0"
+sqlalchemy = "^2.0.32"
+pydantic-settings = "^2.4.0"
+python-dotenv = "^1.0.1"
+uvicorn = "^0.30.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
