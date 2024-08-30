@@ -14,6 +14,12 @@ sqlalchemy = "^2.0.32"
 pydantic-settings = "^2.4.0"
 python-dotenv = "^1.0.1"
 uvicorn = "^0.30.6"
+black = "^24.8.0"
+python-jose = "^3.3.0"
+bcrypt = "4.0.1"
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+pydantic = {extras = ["email"], version = "^2.8.2"}
+aiohttp = "^3.10.5"
 
 
 [build-system]
